@@ -1,4 +1,9 @@
 # backend-challenge
+Movie CRUD Operations includes create,delete,update,fetchall
+
+##Routes
+
+
 
 
 ## access token to verify the delete and update movie routes
