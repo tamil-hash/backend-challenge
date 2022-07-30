@@ -3,16 +3,16 @@ Movie CRUD Operations includes create,delete,update,fetchall
 
 ## Routes
 
-1.fetch all movies
-GET REQUEST
-PUBLIC
-route: [a link](https://backend-challeng.herokuapp.com/movie/fetch-all)
-
-2.create a movie
-PUT REQUEST
-PUBLIC
-ROUTE: [a link](https://backend-challeng.herokuapp.com/movie/create)
-data to be sent : 
+1.fetch all movies <br />
+GET REQUEST <br />
+PUBLIC <br />
+route: https://backend-challeng.herokuapp.com/movie/fetch-all <br />
+ <br /> <br />
+2.create a movie <br />
+PUT REQUEST <br />
+PUBLIC <br />
+ROUTE: https://backend-challeng.herokuapp.com/movie/create <br />
+data to be sent :  <br />
   {
         "name": "Avengers",
         "rating": 8,
@@ -24,14 +24,14 @@ data to be sent :
         "releaseDate": "2012-04-26T18:30:00.000Z",
     }
     
-    
+     <br /> <br />
 
-2.UPDATE a movie
-POST REQUEST
-PRIVATE
-USE FETCH ALL TO GET ID AND GIVE IT IN BODY
-ROUTE: [a link](https://backend-challeng.herokuapp.com/movie/create)
-data to be sent : 
+2.UPDATE a movie <br />
+POST REQUEST <br />
+PRIVATE <br />
+USE FETCH ALL TO GET ID AND GIVE IT IN BODY <br />
+ROUTE: https://backend-challeng.herokuapp.com/movie/create <br />
+data to be sent :  <br />
   {
         "movieid": "62e4fb57dd629ccff512be7f",
         "name": "Avengers",
@@ -43,12 +43,12 @@ data to be sent :
         "genre": "Action",
         "releaseDate": "2012-04-26T18:30:00.000Z",
     }
-
-2.Delete a movie
-DELETE REQUEST
-PRIVATE
-USE FETCH ALL TO GET ID AND GIVE IT AS A QUERY
-ROUTE: [a link](https://backend-challeng.herokuapp.com/movie/create)
+ <br /> <br />
+2.Delete a movie <br />
+DELETE REQUEST <br />
+PRIVATE <br />
+USE FETCH ALL TO GET ID AND GIVE IT AS A QUERY <br />
+ROUTE: https://backend-challeng.herokuapp.com/movie/create <br /> <br /> <br />
 
   
 
