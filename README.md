@@ -26,7 +26,7 @@ data to be sent :  <br />
     
   <br /> <br />
 
-2.UPDATE a movie <br />
+3.UPDATE a movie <br />
 POST REQUEST <br />
 PRIVATE <br />
 USE FETCH ALL TO GET ID AND GIVE IT IN BODY <br />
@@ -44,7 +44,7 @@ data to be sent :  <br />
         "releaseDate": "2012-04-26T18:30:00.000Z",
     }
  <br /> <br />
-2.Delete a movie <br />
+4.Delete a movie <br />
 DELETE REQUEST <br />
 PRIVATE <br />
 USE FETCH ALL TO GET ID AND GIVE IT AS A QUERY <br />
