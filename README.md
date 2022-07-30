@@ -24,7 +24,7 @@ data to be sent :  <br />
         "releaseDate": "2012-04-26T18:30:00.000Z",
     }
     
-     <br /> <br />
+  <br /> <br />
 
 2.UPDATE a movie <br />
 POST REQUEST <br />
