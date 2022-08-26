@@ -1,3 +1,4 @@
+Used Node.js, Express.js, Mongo DB, ODM- Mongoose in this project
 # backend-challenge
 Movie CRUD Operations includes create,delete,update,fetchall
 
