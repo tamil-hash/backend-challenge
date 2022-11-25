@@ -5,7 +5,7 @@ import movieRoutes from "./routes/movieRoutes.js";
 
 const app = express();
 
-//middlewares
+//middlewaress
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
